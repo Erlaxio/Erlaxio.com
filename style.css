@@ -1,0 +1,260 @@
+.nav1 {
+    background-color: #333;
+    padding-left: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: beige;
+    margin-left: 5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.m p {
+  margin-left: 5%;
+}
+
+.m a {
+  text-decoration: none;
+}
+
+.m {
+    background-color: beige;
+    width: 100%;
+}
+
+.m img{
+  width: 90%;
+  height: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.m h1 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.staff img {
+  width: 20%;
+  margin-left: 5%;
+}
+
+.staff h2 {
+  position: absolute;
+  left: 5%;
+}
+
+.staff h2.one {
+  position: absolute;
+  left: 35% ;
+}
+
+.staff h2.two {
+  position: absolute;
+  left: 65% ;
+}
+
+.foot p{
+    text-align: center;
+}
+
+a:hover {
+  background-color: #333;
+  padding: 3%;
+  border-radius: 30px;
+}
+
+/* dashboard part */
+.dash{ 
+  margin-top: 10%;
+  background-color: rgb(213, 211, 68);
+  margin-bottom: 10%;
+  background-image: linear-gradient(
+    45deg ,
+    blue,
+    green,
+    red
+  );
+} 
+
+.dash h1 , p {
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myfirst 10s;
+  animation-direction: linear;
+  animation-iteration-count: infinite;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: box 9s;
+  animation-direction: linear;
+  animation-iteration-count: infinite;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: box1 8s;
+  animation-direction: linear;
+  animation-iteration-count: infinite;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: box2 7s;
+  animation-direction: linear;
+  animation-iteration-count: infinite;
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: box3 6s;
+  animation-direction: linear;
+  animation-iteration-count: infinite;
+}
+
+.box p {
+  text-align: center;
+  padding-top: 40%;
+  color: aqua;
+}
+
+.box2 p {
+  text-align: center;
+  padding-top: 40%;
+  color: aqua;
+}
+
+.box3 p {
+  text-align: center;
+  padding-top: 40%;
+  color: aqua;
+}
+
+.box4 p {
+  text-align: center;
+  padding-top: 40%;
+  color: aqua;
+}
+
+.box5 p {
+  text-align: center;
+  padding-top: 40%;
+  color: aqua;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  50%  {background: green; left: 1400px; top: 0px;}
+  100% {background: blue; left: 0px; top: 0px;}
+}
+
+@keyframes box {
+  0%   {background: red; left: 0px; top: 0px;}
+  50%  {background: green; left: 1400px; top: 0px;}
+  100% {background: blue; left: 0px; top: 0px;}
+}
+
+@keyframes box1 {
+  0%   {background: red; left: 0px; top: 0px;}
+  50%  {background: green; left: 1400px; top: 0px;}
+  100% {background: blue; left: 0px; top: 0px;}
+}
+
+@keyframes box2 {
+  0%   {background: red; left: 0px; top: 0px;}
+  50%  {background: green; left: 1400px; top: 0px;}
+  100% {background: blue; left: 0px; top: 0px;}
+}
+
+@keyframes box3 {
+  0%   {background: red; left: 0px; top: 0px;}
+  50%  {background: green; left: 1400px; top: 0px;}
+  100% {background: blue; left: 0px; top: 0px;}
+}
+/*dashboard ends here*/
+
+
+
+/* Learn part */
+.leand { 
+  margin-top: 5%;
+  background-color: rgb(125, 222, 56);
+  background-image: linear-gradient(
+    45deg ,
+    cyan,
+    yellow
+  );
+  content: '';
+  inset: 0;
+  transform: skewY(-5deg);
+} 
+
+.leand h1 {
+  text-align: center;
+}
+
+.leand table, th, td {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.leand table {
+  margin-left: 50%;
+}
+
+.leand a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+ol.myol {
+  display: inline-block;
+  text-align: left;
+}
+/* learn up to here only*/
+
+.mored{ /* more*/
+  margin-top: 5%;
+  background-color: rgb(46, 188, 131);
+} 
+
+.mored h1 {
+  text-align: center;
+}
